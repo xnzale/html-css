@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DDD;
+}
+#tab{
+
+    margin: auto;
+    width:800px;
+    margin-top: 15px;
+    border: 2px solid #000;
+    height: 600px;
+}
+
+
+@media screen and (max-width:768px)
+{
+    #tab
+    {
+        width:360px;
+        margin: auto;
+    }
+    .milieu
+    {
+        display:inline;
+        flex-direction: column;
+        flex-flow: row;
+    }
+    .vert
+    {
+        width: 100px;
+    }
+  
+}
+
+
+img
+{
+    border: 1px solid #000;
+    margin: 5px;
+}
+.button
+{
+        background: #DDD;
+        color:#040d22;
+        border: none;
+        cursor: pointer;
+        padding:15px;
+        margin-top:20px;
+        font-size: 18px;
+        opacity:0.7;
+}
+.button:hover
+{
+        opacity: 1;
+}
+.menu
+{
+    position: relative;
+    display: block;
+}
+.tarxiss
+{
+    display: none;
+    background-color: #CCC;
+    min-width: 50px;
+}
+ .tarxiss a
+{
+    color: #000;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+.menu:hover .tarxiss
+{
+    display:block;
+    color:#fff;
+    opacity: 0.8;
+    position: absolute;
+    background: #444343;
+}
+.tarxis, .ndaw{
+    background: #f1f1f1;
+}
+.tarxiss:hover , .ndaw:hover
+{
+    background:#fff;
+    color:#0202fc;
+}
+.milieu{
+    display: flex;
+    border:1px solid #000;
+    height: 450px;
+    flex-flow: row;
+}
+.vert{
+    margin: 6px 0 0 0;
+    width: 500px;
+    background-color: #031731;
+}
+.cibir > .bleu{
+    background-color: #bbbbbe;
+    margin: 6px 6px 0 6px;
+} 
+.cibir > .first{
+    height: 310px;
+}
+.cibir > .second{
+        height: 150px;   
+}
+.cibir{
+    display: flex;
+    flex-direction: column;
+   
+}
+.bleu{
+    border: 1px solid #bbbbbe;
+    width: 280px;
+}
+.bas{
+    display: flex;
+    justify-content: space-evenly;  /* Espacement Occupant toute l'espace */
+    flex-direction: row;
+    border: 1px solid #444343;
+    background: #9e9ea0;
+}
+.soufgui
+{
+    border-right: 1px solid #000;
+    height: 30px;
+}
